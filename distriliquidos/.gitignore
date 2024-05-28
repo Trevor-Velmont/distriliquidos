@@ -1,0 +1,48 @@
+# Laravel-specific directories
+/vendor/
+/node_modules/
+/public/storage
+/storage/*.key
+/vendor/composer/installed.json
+
+# Ignorar las configuraciones de IDEs y editores
+/.idea
+/.vscode
+
+# Ignorar archivos de entorno y configuración sensibles
+/.env
+/.env.*
+Homestead.yaml
+Homestead.json
+
+# Ignorar archivos generados por Composer
+/composer.lock
+/composer.phar
+
+# Ignorar archivos de logs y cachés
+/storage/*.key
+/storage/logs/*
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/bootstrap/cache/*.php
+
+# Ignorar archivos de build y paquetes
+/.sass-cache
+/.cache
+/npm-debug.log*
+/yarn-debug.log*
+/yarn-error.log*
+
+# Ignorar archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de PHPUnit resultantes de pruebas
+.phpunit.result.cache
+
+# Ignorar archivos de configuración y dependencias de herramientas de CI/CD
+/.github/workflows
+/.travis.yml
+/.circleci
